@@ -14,6 +14,7 @@ class SearchBar extends React.Component {
               type="text"
               placeholder="Image Search..."
               onChange={this.onInputChange}
+              //onChange={e => console.log(e.target.value)}
             />
           </div>
         </form>
