@@ -8,7 +8,7 @@ class ImageCard extends React.Component {
   }
 
   componentDidMount() {
-    console.log(this.ImageRef);
+    console.log(this.ImageRef.current.clientHeight);
   }
 
   render() {
